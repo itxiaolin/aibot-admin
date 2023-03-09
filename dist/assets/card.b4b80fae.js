@@ -1,4 +1,0 @@
-/*! 
- Build based on gin-vue-admin 
- Time : 1678354544000 */
-import{q as a,s,A as e,C as r,o as t,c as d,n as l,J as o,I as n,h as c,a2 as y,f as h,d as p,a3 as i,K as u,a6 as f}from"./index.12a9298d.js";const v=a({header:{type:String,default:""},bodyStyle:{type:s([String,Object,Array]),default:""},shadow:{type:String,values:["always","hover","never"],default:"always"}}),m=e({name:"ElCard"});const w=f(u(e({...m,props:v,setup(a){const s=r("card");return(a,e)=>(t(),d("div",{class:l([o(s).b(),o(s).is(`${a.shadow}-shadow`)])},[a.$slots.header||a.header?(t(),d("div",{key:0,class:l(o(s).e("header"))},[n(a.$slots,"header",{},(()=>[c(y(a.header),1)]))],2)):h("v-if",!0),p("div",{class:l(o(s).e("body")),style:i(a.bodyStyle)},[n(a.$slots,"default")],6)],2))}}),[["__file","/home/runner/work/element-plus/element-plus/packages/components/card/src/card.vue"]]));export{w as E};
