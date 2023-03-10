@@ -13,6 +13,11 @@ const routes = [{
   path: '/login',
   name: 'Login',
   component: () => import('@/view/login/index.vue')
+},
+{
+  path: '/wxlogin',
+  name: 'WxLogin',
+  component: () => import('@/plugin/wx/components/bind.vue')
 }
 ]
 

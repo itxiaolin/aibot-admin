@@ -57,8 +57,7 @@
               type="primary"
               style="width: 46%"
               size="large"
-              @click="checkInit"
-            >前往初始化</el-button>
+            > <wxLogin /></el-button>
             <el-button
               type="primary"
               size="large"
@@ -109,6 +108,7 @@ import { reactive, ref } from 'vue'
 import { ElMessage } from 'element-plus'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '@/pinia/modules/user'
+import wxLogin from '@/plugin/wx/components/bind.vue'
 const router = useRouter()
 // 验证函数
 const checkUsername = (rule, value, callback) => {
