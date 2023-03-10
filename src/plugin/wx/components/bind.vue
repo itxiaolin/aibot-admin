@@ -45,7 +45,6 @@
       </el-form></el-dialog>
     <el-button
         type="primary"
-        style="width: 46%"
         size="large"
         @click="scan"
     >扫码登录</el-button>
